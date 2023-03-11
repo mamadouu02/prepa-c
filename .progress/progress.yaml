@@ -752,10 +752,10 @@ base:
       - Boucles for
       - Boucles while
     papous:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 1
-      maitrise: 0
+      maitrise: 5
       skills:
       - Opérateurs logiques
       - Conditions if else
@@ -1323,7 +1323,7 @@ carte:
     Opérateurs d'incrémentation: 5
     Opérateurs de comparaison: 0
     Opérateurs de décalages binaires: 0
-    Opérateurs logiques: 0
+    Opérateurs logiques: 5
     Opérateurs structures et unions: 0
     Priorité des opérateurs: 0
   Passage de paramètres:
@@ -1367,9 +1367,9 @@ carte:
     Boucles for: 0
     Boucles while: 0
     Condition simple if: 0
-    Conditions combinées avec opérateurs logiques: 0
+    Conditions combinées avec opérateurs logiques: 5
     Conditions de type switch: 0
-    Conditions if else: 0
+    Conditions if else: 5
     Respect d'un coding style: 0
     break, continue: 0
   Types de données:
