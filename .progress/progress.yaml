@@ -595,10 +595,10 @@ base:
       - Affichage formaté sur la sortie standard
       - Boucles for
     do-while:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 2
-      maitrise: 0
+      maitrise: 5
       skills:
       - Caractères
       - Traitement caractère par caractère
@@ -1294,7 +1294,7 @@ carte:
     Fermeture de fichier: 0
     Lecture caractère par caractère: 0
     Lecture par ligne: 0
-    Traitement caractère par caractère: 0
+    Traitement caractère par caractère: 5
   Macros:
     Fonction macro avec nombre variable de paramètres: 0
     Fonction macro avec paramètres: 0
@@ -1363,7 +1363,7 @@ carte:
     Prototypes de fonctions: 0
     Prototypes de structures de données: 0
   Structures de contrôle:
-    Boucles do while: 0
+    Boucles do while: 5
     Boucles for: 5
     Boucles while: 0
     Condition simple if: 0
@@ -1374,7 +1374,7 @@ carte:
     break, continue: 0
   Types de données:
     Booléens: 0
-    Caractères: 0
+    Caractères: 5
     Champs de bits: 0
     Chaînes de caractères: 0
     Définition de type: 0
