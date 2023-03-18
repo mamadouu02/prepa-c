@@ -739,10 +739,10 @@ base:
       - Opérateurs logiques
       - Conditions combinées avec opérateurs logiques
     palindrome:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 2
-      maitrise: 0
+      maitrise: 5
       skills:
       - Booléens
       - Caractères
@@ -1366,17 +1366,17 @@ carte:
     Boucles do while: 5
     Boucles for: 5
     Boucles while: 5
-    Condition simple if: 0
+    Condition simple if: 5
     Conditions combinées avec opérateurs logiques: 5
     Conditions de type switch: 0
     Conditions if else: 5
     Respect d'un coding style: 0
     break, continue: 0
   Types de données:
-    Booléens: 0
+    Booléens: 5
     Caractères: 5
     Champs de bits: 0
-    Chaînes de caractères: 0
+    Chaînes de caractères: 5
     Définition de type: 0
     Enumérations: 0
     Flottants: 0
