@@ -854,10 +854,10 @@ base:
       - Découpage d'un module en fonctions
       - Prototypes de fonctions
     somme-pairs:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 1
-      maitrise: 0
+      maitrise: 5
       skills:
       - Tableaux statiques
       - Boucles for
@@ -1365,7 +1365,7 @@ carte:
   Structures de contrôle:
     Boucles do while: 5
     Boucles for: 5
-    Boucles while: 0
+    Boucles while: 5
     Condition simple if: 0
     Conditions combinées avec opérateurs logiques: 5
     Conditions de type switch: 0
@@ -1384,7 +1384,7 @@ carte:
     Opérateurs arithmétiques: 5
     Structures: 0
     Tableaux de dimension variable: 0
-    Tableaux statiques: 0
+    Tableaux statiques: 5
     Transtypage de types avancés: 0
     Transtypage de types simples: 0
     Typage des constantes: 0
