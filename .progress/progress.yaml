@@ -823,10 +823,10 @@ base:
       skills:
       - Préprocesseur (define)
     rationnels:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 2
-      maitrise: 0
+      maitrise: 5
       skills:
       - Entiers
       - Flottants
@@ -1379,13 +1379,13 @@ carte:
     Chaînes de caractères: 5
     Définition de type: 0
     Enumérations: 0
-    Flottants: 0
+    Flottants: 5
     Notion de constante: 5
     Opérateurs arithmétiques: 5
-    Structures: 0
+    Structures: 5
     Tableaux de dimension variable: 0
     Tableaux statiques: 5
     Transtypage de types avancés: 0
-    Transtypage de types simples: 0
+    Transtypage de types simples: 5
     Typage des constantes: 0
     Unions: 0
