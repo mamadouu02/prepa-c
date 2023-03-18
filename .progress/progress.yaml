@@ -842,10 +842,10 @@ base:
       - Affichage formaté sur la sortie standard
       - Affichage formaté sur la sortie d’erreur
     somme-impairs:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 1
-      maitrise: 0
+      maitrise: 5
       skills:
       - Tableaux statiques
       - Notion de constante
@@ -1350,7 +1350,7 @@ carte:
     Pointeurs sur void: 0
     Tableaux de pointeurs: 0
   Programmation modulaire:
-    Découpage d'un module en fonctions: 0
+    Découpage d'un module en fonctions: 5
     Découpage d'un programme en modules: 0
     Fonction variadique: 0
     Macros de fichiers d'entête: 0
@@ -1360,7 +1360,7 @@ carte:
     Ouverture de fichier: 0
     Portée d'une fonction dans un module, un programme: 0
     Portée d'une variable dans un module, une fonction: 0
-    Prototypes de fonctions: 0
+    Prototypes de fonctions: 5
     Prototypes de structures de données: 0
   Structures de contrôle:
     Boucles do while: 5
@@ -1380,7 +1380,7 @@ carte:
     Définition de type: 0
     Enumérations: 0
     Flottants: 0
-    Notion de constante: 0
+    Notion de constante: 5
     Opérateurs arithmétiques: 5
     Structures: 0
     Tableaux de dimension variable: 0
