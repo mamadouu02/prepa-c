@@ -834,10 +834,10 @@ base:
       - Transtypage de types simples
       - Opérateurs arithmétiques
     safari:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 1
-      maitrise: 0
+      maitrise: 5
       skills:
       - Affichage formaté sur la sortie standard
       - Affichage formaté sur la sortie d’erreur
@@ -1281,7 +1281,7 @@ carte:
     Utilisation de valgrind: 0
     Utilisation des options de compilation: 0
   Entrées/Sorties:
-    Affichage formaté sur la sortie d’erreur: 0
+    Affichage formaté sur la sortie d’erreur: 5
     Affichage formaté sur la sortie standard: 5
     Déplacement au sein d'un fichier: 0
     Ecriture caractère par caractère: 0
