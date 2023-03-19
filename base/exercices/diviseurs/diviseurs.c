@@ -19,7 +19,19 @@ int main(int argc, char **argv)
         /* Tiens et si ca tient pas sur 32 bits? A voir... */
     }
     uint32_t nombre = (uint32_t) au_cas_ou;
-
+    uint32_t nb_diviseurs = 0;
+    for (uint32_t k = 2; k < nombre; k++)
+    {
+        if (nombre % k == 0)
+        {
+            printf("%u est un diviseur de %u.\n", k, nombre);
+            nb_diviseurs++;
+        }
+    }
+    if (nb_diviseurs == 0)
+    {
+        printf("%u est premier !\n", nombre);
+    }
 
     return EXIT_SUCCESS;
 }

@@ -4,6 +4,21 @@
 
 static void afficher_papous(bool est_papa, bool a_poux)
 {
+    printf("y'a des papous ");
+    
+    if (!est_papa)
+    {
+        printf("pas ");
+    }
+
+    printf("papa ");
+
+    if (!a_poux)
+    {
+        printf("pas ");
+    }
+
+    printf("à poux\n");
 }
 
 int main(void)
