@@ -12,7 +12,7 @@ int main(void)
         res += tab[i];
     }
     
-    printf("Le résultat est %d.\n", res);
+    printf("Le résultat est %d.\n", 2 * res);
 
     return EXIT_SUCCESS;
 }
