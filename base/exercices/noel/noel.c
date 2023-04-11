@@ -4,7 +4,7 @@
 
 static bool noel(bool boule, bool guirlande, bool sapin, bool lapin)
 {
-    // A compléter
+    return sapin && (guirlande || boule) && !lapin;
 }
 
 int main(void)
