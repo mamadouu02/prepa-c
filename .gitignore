@@ -1,5 +1,4 @@
-*
-!.gitignore
-!.progress
-!base
-!*.c
+.DS_Store
+.progress/__pycache__
+base/exercices/*/*
+!base/exercices/*/*.c
