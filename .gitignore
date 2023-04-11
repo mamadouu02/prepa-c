@@ -1,5 +1,5 @@
 *
 !.gitignore
+!.progress
+!base
 !*.c
-!*.md
-!*.yaml
