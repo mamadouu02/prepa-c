@@ -15,9 +15,35 @@ uint32_t calcul_somme(uint32_t entiers[], uint32_t taille)
 
 uint32_t calcul_nombre_partitions(uint32_t entiers[], uint32_t taille)
 {
+    uint32_t somme = calcul_somme(entiers, taille);
+
+    if (somme % 2)
+    {
+        return 0;
+    }
+
+    uint32_t cible = somme / 2;
+    uint32_t nombre_partitions = 0;
+
+    for (uint32_t combinaison = 0; combinaison < 1 << taille; ++combinaison)
+    {
+        uint32_t valeur = 0;
+        uint32_t bits = combinaison;
+
+        for (uint32_t i = 0; i < taille; ++i)
+        {
+            uint8_t bit = bits % 2;
+            bits >>= 1;
+            valeur += entiers[i] * bit;
+        }
+
+        if (valeur == cible) ++nombre_partitions;
+    }
+
+    return nombre_partitions;
 }
 
-int main(int argc, char** argv)
+int main(void)
 {
     uint32_t entiers[25] = {
         285762, 1287946, 260518, 702569, 183183, 1180, 909976, 1261857, 1665545, 1888537,
