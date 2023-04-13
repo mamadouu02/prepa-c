@@ -16,8 +16,7 @@ int main(int argc, char **argv)
     /* Convertit l'argument passé par l'utilisateur en entier. */
     int32_t nombre = atoi(argv[1]);
 
-    switch (nombre)
-    {
+    switch (nombre) {
     case LUNDI:
     case MARDI:
     case MERCREDI:

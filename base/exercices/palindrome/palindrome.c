@@ -7,14 +7,11 @@ static bool est_palindrome(const char *mot)
 {
     size_t length = strlen(mot);
 
-    if (length > 1)
-    {
+    if (length > 1) {
         size_t i = 0, j = length - 1;
 
-        for (i = 0; i < length/2; ++i, --j)
-        {
-            if (mot[i] != mot[j])
-            {
+        for (i = 0; i < length/2; ++i, --j) {
+            if (mot[i] != mot[j]) {
                 return false;
             }
         }

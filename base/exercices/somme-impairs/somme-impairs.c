@@ -4,8 +4,7 @@
 
 void init_tab(uint32_t tab[], size_t length)
 {
-    for (uint32_t i = 0; i < length; ++i)
-    {
+    for (uint32_t i = 0; i < length; ++i) {
         tab[i] = 2 * i + 1;
     }
 }
@@ -14,8 +13,7 @@ uint32_t somme_tab(uint32_t tab[], size_t length)
 {
     uint32_t res = 0;
 
-    for (uint32_t i = 0; i < length; ++i)
-    {
+    for (uint32_t i = 0; i < length; ++i) {
         res += tab[i];
     }
 

@@ -6,13 +6,11 @@ int main(void)
 {
     char ch, end;
 
-    do
-    {
+    do {
         printf("Entrez une majuscule : ");
         ch = getc(stdin);
 
-        do
-        {
+        do {
             end = getc(stdin);
         } while (end != '\n');
         
