@@ -761,10 +761,10 @@ base:
       - Conditions if else
       - Conditions combinées avec opérateurs logiques
     param:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 1
-      maitrise: 0
+      maitrise: 5
       skills:
       - Opérateur adresse de
       - Opérateur d'indirection
@@ -1272,7 +1272,7 @@ carte:
     Fonctions de conversion d'une chaine de caractères en entier: 0
     Fonctions de copies de chaines de caractères: 0
     Fonctions de longueur d'une chaine de caractères: 0
-    Opérateur adresse de: 0
+    Opérateur adresse de: 5
   Débogage:
     Affichage de traces: 0
     Débogage de macros: 0
@@ -1328,7 +1328,7 @@ carte:
     Priorité des opérateurs: 0
   Passage de paramètres:
     Passage d'un tableau statique en paramètre: 5
-    Passage de l'adresse d'une variable: 0
+    Passage de l'adresse d'une variable: 5
     Passage de la valeur d'une variable: 5
     Passage de paramètres au programme principal: 0
     Passage en paramètre d'un tableau de pointeurs: 0
@@ -1341,7 +1341,7 @@ carte:
     Fonction taille mémoire d'un type de donnée: 0
     Libération de mémoire: 0
     Listes chainées: 0
-    Opérateur d'indirection: 0
+    Opérateur d'indirection: 5
     Opérations arithmétiques sur les pointeurs: 0
     Passage de paramètre par copie: 5
     Pointeurs de fonctions: 0
