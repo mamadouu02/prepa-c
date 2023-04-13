@@ -723,10 +723,10 @@ base:
       - Passage d'un tableau statique en paramètre
       - Préprocesseur (include)
     mystere:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 1
-      maitrise: 0
+      maitrise: 5
       skills:
       - Respect d'un coding style
     noel:
@@ -1370,7 +1370,7 @@ carte:
     Conditions combinées avec opérateurs logiques: 5
     Conditions de type switch: 5
     Conditions if else: 5
-    Respect d'un coding style: 0
+    Respect d'un coding style: 5
     break, continue: 0
   Types de données:
     Booléens: 5
