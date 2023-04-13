@@ -16,19 +16,38 @@
     vous semble adéquat.
 */
 
+void incremente(int8_t *entier)
+{
+    ++*entier;
+}
+
+void met_a_zero(int8_t *tab, size_t len)
+{
+    for (size_t i = 0; i < len; ++i) {
+      tab[i] = 0;
+    }
+}
+
+void met_a_null(char **ptr)
+{
+    *ptr = NULL;
+}
 
 int main(void)
 {
     int8_t toto = 0;
     // TODO : insérez ici un appel à la fonction incremente pour modifier la valeur de toto
+    incremente(&toto);
     assert(toto == 1);
 
     int8_t pouet[] = { 1, 2, 3 };
     // TODO : insérer ici un appel à la fonction met_a_zero pour mettre toutes les cases de pouet à 0
+    met_a_zero(pouet, 3);
     assert(pouet[0] == 0 && pouet[1] == 0 && pouet[2] == 0);
 
     char* coucou = "hello !";
     // TODO : insérer ici un appel à la fonction met_a_null pour mettre coucou à NULL
+    met_a_null(&coucou);
     assert(coucou == NULL);
 
     printf("Bravo, si vous arrivez jusqu'ici, c'est que tout fonctionne bien !\n");
