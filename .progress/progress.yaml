@@ -800,10 +800,10 @@ base:
       - Affichage formaté sur la sortie standard
       - Affichage formaté sur la sortie d’erreur
     pointeurs:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 1
-      maitrise: 0
+      maitrise: 5
       skills:
       - Opérateur adresse de
       - Opérateur d'indirection
