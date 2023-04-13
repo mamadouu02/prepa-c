@@ -653,10 +653,10 @@ base:
       - Options warnings
       - Préprocesseur (include)
     lexico:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 2
-      maitrise: 0
+      maitrise: 5
       skills:
       - Opérateurs de comparaison
       - Traitement caractère par caractère
@@ -1266,7 +1266,7 @@ base:
     tot_score: 0
 carte:
   Chaines de caractères:
-    Codage ASCII: 0
+    Codage ASCII: 5
     Fonctions de comparaisons de chaines de caractères: 0
     Fonctions de concaténation de 2 chaines de caractères: 0
     Fonctions de conversion d'une chaine de caractères en entier: 0
