@@ -14,6 +14,14 @@
  */
 static int8_t compare_lettres(char c1, char c2)
 {
+    if (c1 < c2) {
+        return -1;
+    }
+
+    if (c1 > c2) {
+        return 1;
+    }
+
     return 0;
 }
 
@@ -29,7 +37,13 @@ static int8_t compare_lettres(char c1, char c2)
  */
 static int8_t compare_mots(const char* m1, const char* m2)
 {
-    return 0;
+    size_t i = 0;
+
+    while (!compare_lettres(m1[i], m2[i]) && m1[i]) {
+        ++i;
+    }
+    
+    return compare_lettres(m1[i], m2[i]);
 }
 
 /**
