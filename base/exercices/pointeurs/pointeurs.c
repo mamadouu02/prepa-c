@@ -13,14 +13,14 @@ int main(void)
         la variable target.
     */
     // TODO
-
+    uint8_t *ptr = &target;
     /*
         Changer la valeur de target pour 255 par l'intermédiaire
         du pointeur ptr. Autrement dit, vous n'avez pas le droit
         ici d'écrire "target = 255;".
     */
     // TODO
-
+    *ptr = 255;
     // Doit afficher "La valeur de target est 255."
     printf("La valeur de target est %u.\n", target);
 
