@@ -62,6 +62,7 @@ static void inserer_queue(struct cellule** pl, uint32_t v)
         while (pq->suiv != NULL) {
             pq = pq->suiv;
         }
+        
         pq->suiv = pc;
     }
 }
