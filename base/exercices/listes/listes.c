@@ -19,8 +19,13 @@ struct cellule
  * @param l la liste à afficher
  */
 static void afficher(struct cellule* l)
-{
-    /* A implémenter! */
+{   
+    while (l != NULL) {
+        printf("%u -> ", l->val);
+        l = l->suiv;
+    }
+
+    printf("NULL\n");
 }
 
 /**
@@ -31,7 +36,10 @@ static void afficher(struct cellule* l)
  */
 static void inserer_tete(struct cellule** pl, uint32_t v)
 {
-    /* A implémenter! */
+    struct cellule *pc = malloc(sizeof(struct cellule));
+    pc->val = v;
+    pc->suiv = *pl;
+    *pl = pc;
 }
 
 /**
@@ -42,7 +50,20 @@ static void inserer_tete(struct cellule** pl, uint32_t v)
  */
 static void inserer_queue(struct cellule** pl, uint32_t v)
 {
-    /* A implémenter! */
+    struct cellule *pc = malloc(sizeof(struct cellule));
+    pc->val = v;
+    pc->suiv = NULL;
+
+    if (*pl == NULL) {
+        *pl = pc;
+    } else {
+        struct cellule *pq = *pl;
+
+        while (pq->suiv != NULL) {
+            pq = pq->suiv;
+        }
+        pq->suiv = pc;
+    }
 }
 
 /**
@@ -53,7 +74,22 @@ static void inserer_queue(struct cellule** pl, uint32_t v)
  */
 static void supprimer_premiere_occurrence(struct cellule** pl, uint32_t v)
 {
-    /* A implémenter! */
+    struct cellule *pp = NULL;
+    struct cellule *pc = *pl;
+
+    while (pc != NULL && pc->val != v) {
+        pp = pc;
+        pc = pc->suiv;
+    }
+
+    if (pc != NULL) {
+        if (pp == NULL) {
+            *pl = pc->suiv;
+        } else {
+            pp->suiv = pc->suiv;
+        }
+        free(pc);
+    }
 }
 
 /**
