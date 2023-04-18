@@ -662,10 +662,10 @@ base:
       - Traitement caractère par caractère
       - Codage ASCII
     listes:
-      etat: todo
-      love: 0
+      etat: done
+      love: 5
       lvl: 3
-      maitrise: 0
+      maitrise: 5
       skills:
       - Structures
       - Passage de paramètre par copie
@@ -1336,17 +1336,17 @@ carte:
     Préprocesseur (include): 5
   Pointeurs et adresses:
     Allocation de mémoire dynamique type de donnée complexe: 0
-    Allocation de mémoire dynamique type de donnée simple: 0
+    Allocation de mémoire dynamique type de donnée simple: 5
     Copie de zones mémoire: 0
-    Fonction taille mémoire d'un type de donnée: 0
-    Libération de mémoire: 0
-    Listes chainées: 0
+    Fonction taille mémoire d'un type de donnée: 5
+    Libération de mémoire: 5
+    Listes chainées: 5
     Opérateur d'indirection: 5
     Opérations arithmétiques sur les pointeurs: 0
     Passage de paramètre par copie: 5
     Pointeurs de fonctions: 0
     Pointeurs de pointeurs: 0
-    Pointeurs de structures: 0
+    Pointeurs de structures: 5
     Pointeurs sur void: 0
     Tableaux de pointeurs: 0
   Programmation modulaire:
